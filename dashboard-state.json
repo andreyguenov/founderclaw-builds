@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-06T22:45:18Z",
+  "last_updated": "2026-03-06T22:45:34Z",
   "agent": {
     "name": "FounderClaw",
     "status": "active",
@@ -7,12 +7,12 @@
     "configured_model": "kilocode/google/gemini-3-flash-preview",
     "uptime_hours": 0.5,
     "last_action": "scout_run",
-    "last_action_at": "2026-03-06T22:45:18Z",
-    "last_action_summary": "Scanned Hacker News for CI/CD frustrations, found 4"
+    "last_action_at": "2026-03-06T22:45:34Z",
+    "last_action_summary": "Scanned TrustMRR for onboarding frustrations, found 1"
   },
   "pipeline_counts": {
     "sources": 2,
-    "signals": 9,
+    "signals": 10,
     "cases": 1,
     "validated": 0,
     "built": 0
@@ -29,8 +29,8 @@
     }
   ],
   "costs": {
-    "total_usd": 0.12000000000000001,
-    "today_usd": 0.12000000000000001,
+    "total_usd": 0.14,
+    "today_usd": 0.14,
     "budget_usd": 150,
     "by_model": {
       "gemini-3-flash-preview": 0.1
@@ -54,6 +54,12 @@
       "status": "active",
       "signals": 3,
       "last_checked": "2026-03-06T21:31:00Z"
+    },
+    {
+      "name": "TrustMRR",
+      "status": "active",
+      "signals": 1,
+      "last_checked": "2026-03-06T22:45:34Z"
     }
   ],
   "errors_24h": 0,
