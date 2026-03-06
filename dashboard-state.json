@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-06T21:31:30Z",
+  "last_updated": "2026-03-06T22:35:03Z",
   "agent": {
     "name": "FounderClaw",
     "status": "active",
-    "model": "google/gemini-3-flash-preview",
-    "configured_model": "gemini-3-flash-preview",
+    "model": "kilocode/google/gemini-3-flash-preview",
+    "configured_model": "kilocode/google/gemini-3-flash-preview",
     "uptime_hours": 0.5,
-    "last_action": "analyst_run",
-    "last_action_at": "2026-03-06T21:31:30Z",
-    "last_action_summary": "Analyzed signals, created Case: Usage-Based Billing for Micro-SaaS"
+    "last_action": "heartbeat",
+    "last_action_at": "2026-03-06T22:35:03Z",
+    "last_action_summary": "Synced model fields to remove dashboard warning"
   },
   "pipeline_counts": {
     "sources": 2,
@@ -29,19 +29,42 @@
     }
   ],
   "costs": {
-    "total_usd": 0.10,
-    "today_usd": 0.10,
+    "total_usd": 0.1,
+    "today_usd": 0.1,
     "budget_usd": 150,
-    "by_model": {"gemini-3-flash-preview": 0.10},
-    "by_day": [{"date": "2026-03-06", "cost": 0.10}]
+    "by_model": {
+      "gemini-3-flash-preview": 0.1
+    },
+    "by_day": [
+      {
+        "date": "2026-03-06",
+        "cost": 0.1
+      }
+    ]
   },
   "sources": [
-    {"name": "Hacker News", "status": "active", "signals": 2, "last_checked": "2026-03-06T21:30:30Z"},
-    {"name": "Brave Search", "status": "active", "signals": 3, "last_checked": "2026-03-06T21:31:00Z"}
+    {
+      "name": "Hacker News",
+      "status": "active",
+      "signals": 2,
+      "last_checked": "2026-03-06T21:30:30Z"
+    },
+    {
+      "name": "Brave Search",
+      "status": "active",
+      "signals": 3,
+      "last_checked": "2026-03-06T21:31:00Z"
+    }
   ],
   "errors_24h": 0,
   "pending_approvals": 0,
   "cron_jobs": [
-    {"name": "Scout", "interval": "6h", "last_run": "2026-03-06T21:31:30Z", "next_run": "2026-03-07T03:31:30Z", "status": "ok"}
+    {
+      "name": "Scout",
+      "interval": "6h",
+      "last_run": "2026-03-06T21:31:30Z",
+      "next_run": "2026-03-07T03:31:30Z",
+      "status": "ok"
+    }
   ]
 }
