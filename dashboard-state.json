@@ -1,0 +1,47 @@
+{
+  "last_updated": "2026-03-06T21:31:30Z",
+  "agent": {
+    "name": "FounderClaw",
+    "status": "active",
+    "model": "google/gemini-3-flash-preview",
+    "configured_model": "gemini-3-flash-preview",
+    "uptime_hours": 0.5,
+    "last_action": "analyst_run",
+    "last_action_at": "2026-03-06T21:31:30Z",
+    "last_action_summary": "Analyzed signals, created Case: Usage-Based Billing for Micro-SaaS"
+  },
+  "pipeline_counts": {
+    "sources": 2,
+    "signals": 5,
+    "cases": 1,
+    "validated": 0,
+    "built": 0
+  },
+  "top_items": [
+    {
+      "id": "case_013",
+      "title": "Usage-Based Billing for Micro-SaaS",
+      "score": 72,
+      "confidence": "medium",
+      "summary": "Users are finding Stripe Billing too complex for usage-based metering and are looking for simpler, open-source-friendly alternatives that handle pooled credits and entitlements natively.",
+      "status": "SCORED",
+      "timestamp": "2026-03-06T21:31:30Z"
+    }
+  ],
+  "costs": {
+    "total_usd": 0.10,
+    "today_usd": 0.10,
+    "budget_usd": 150,
+    "by_model": {"gemini-3-flash-preview": 0.10},
+    "by_day": [{"date": "2026-03-06", "cost": 0.10}]
+  },
+  "sources": [
+    {"name": "Hacker News", "status": "active", "signals": 2, "last_checked": "2026-03-06T21:30:30Z"},
+    {"name": "Brave Search", "status": "active", "signals": 3, "last_checked": "2026-03-06T21:31:00Z"}
+  ],
+  "errors_24h": 0,
+  "pending_approvals": 0,
+  "cron_jobs": [
+    {"name": "Scout", "interval": "6h", "last_run": "2026-03-06T21:31:30Z", "next_run": "2026-03-07T03:31:30Z", "status": "ok"}
+  ]
+}
