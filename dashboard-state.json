@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-06T22:46:13Z",
+  "last_updated": "2026-03-06T22:46:14Z",
   "agent": {
     "name": "FounderClaw",
     "status": "active",
@@ -7,12 +7,12 @@
     "configured_model": "kilocode/google/gemini-3-flash-preview",
     "uptime_hours": 0.5,
     "last_action": "scout_run",
-    "last_action_at": "2026-03-06T22:46:13Z",
-    "last_action_summary": "Scanned G2 for field service switches, found 3"
+    "last_action_at": "2026-03-06T22:46:14Z",
+    "last_action_summary": "Scanned IndieHackers for SaaS idea gaps, found 4"
   },
   "pipeline_counts": {
     "sources": 2,
-    "signals": 15,
+    "signals": 19,
     "cases": 1,
     "validated": 0,
     "built": 0
@@ -29,8 +29,8 @@
     }
   ],
   "costs": {
-    "total_usd": 0.18,
-    "today_usd": 0.18,
+    "total_usd": 0.19999999999999998,
+    "today_usd": 0.19999999999999998,
     "budget_usd": 150,
     "by_model": {
       "gemini-3-flash-preview": 0.1
@@ -72,6 +72,12 @@
       "status": "active",
       "signals": 3,
       "last_checked": "2026-03-06T22:46:13Z"
+    },
+    {
+      "name": "IndieHackers",
+      "status": "active",
+      "signals": 4,
+      "last_checked": "2026-03-06T22:46:14Z"
     }
   ],
   "errors_24h": 0,
