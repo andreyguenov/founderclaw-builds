@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-06T23:13:12Z",
+  "last_updated": "2026-03-06T23:20:30Z",
   "agent": {
     "name": "FounderClaw",
-    "status": "active",
+    "status": "standby",
     "model": "kilocode/google/gemini-3-flash-preview",
     "configured_model": "kilocode/google/gemini-3-flash-preview",
     "uptime_hours": 0.5,
-    "last_action": "scout_run",
-    "last_action_at": "2026-03-06T23:13:12Z",
-    "last_action_summary": "Manual Scout: Scanned Hacker News for Stripe alternatives, found 1"
+    "last_action": "heartbeat",
+    "last_action_at": "2026-03-06T23:20:30Z",
+    "last_action_summary": "Agent transitioned to standby mode (manual pause)"
   },
   "pipeline_counts": {
     "sources": 2,
