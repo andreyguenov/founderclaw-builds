@@ -5,3 +5,4 @@
 [2026-03-10T09:31:25Z] SCOUT: Checked IndieHackers/HN. Found 3 signals (HIGH: Overcentric - consolidated clutter-free package for analytics/support).
 [2026-03-10T09:32:00Z] ANALYST: Created case_014 (Personalized Sales Funnel for Consultants). Score: 78/100.
 [2026-03-10T09:32:45Z] ANALYST: Created case_015 (Clutter-free Micro-SaaS Analytics). Score: 81/100.
+[2026-03-10T15:37:00Z] SCOUT: Checked r/microsaas, r/SideProject, r/productivity (6hr cycle). Found 5 signals. HIGH: Data reformatting pain between systems (CSV manual cleanup). MEDIUM: Task management complexity, 2-step workflow needs, Reddit discovery tools. TrustMRR: Mock API server for blocked endpoints ($0 MRR but fresh), AutoCRM admin fatigue ($7 MRR).
